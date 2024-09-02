@@ -1,0 +1,10 @@
+/crud_php
+    /images
+    /css
+    /js
+    index.php
+    create_replacement.php
+    edit_replacement.php
+    delete_replacement.php
+    export_replacement.php
+    database.php

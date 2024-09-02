@@ -1,0 +1,231 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagenes/fom.png" type="image/png">
+    <style>
+        body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+    }
+
+    .sidebar {
+        width: 250px;
+        background-color: #03162a;
+        color: #cde213;
+        padding: 20px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        transition: transform 0.3s ease;
+    }
+
+    .sidebar.closed {
+        transform: translateX(-250px);
+    }
+
+    .sidebar h1 {
+        font-size: 20px;
+        margin: 20px 0;
+        font-weight: bold;
+        color: #cde213;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+        transition: opacity 0.3s ease;
+    }
+
+    .sidebar.closed h1 {
+        opacity: 0;
+    }
+
+    .sidebar a {
+        color: #fff6f6;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 12px 15px;
+        font-size: 16px;
+        transition: background 0.3s, font-size 0.3s;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    
+    a{
+        color: #fafafa;
+        text-decoration: none;
+        background-color: transparent;
+    }
+   
+
+    .sidebar a:hover {
+        background-color: #575757;
+    }
+
+    .sidebar a i {
+        margin-right: 10px;
+        font-size: 24px;
+        transition: font-size 0.3s;
+    }
+
+    .sidebar.closed a {
+        justify-content: center;
+    }
+
+    .sidebar.closed a i {
+        font-size: 32px;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        background-color: rgb(208, 208, 208);
+        color: rgb(6, 6, 8);
+        padding: 15px 30px;
+        box-shadow: 0 2px 4px rgba(7, 159, 68, 0.1);
+        position: fixed;
+        top: 0;
+        left: 250px;
+        right: 0;
+        z-index: 1001;
+        transition: left 0.3s ease, width 0.3s ease;
+    }
+
+    .header.header-collapsed {
+        left: 0;
+        width: calc(100% - 50px); /* Ajusta el ancho del header cuando el sidebar está cerrado */
+        padding-left: 15px; /* Ajusta el padding para que no se solape con el icono */
+    }
+
+
+    .main-content {
+        margin-left: 250px;
+        padding: 20px 15px 30px;
+        transition: margin-left 0.3s ease, width 0.3s ease;
+    }
+ 
+
+    .main-content.main-content-collapsed {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .sidebar {
+            width: 100%;
+            height: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translateX(-100%);
+            overflow: hidden;
+        }
+
+        .sidebar.open {
+            transform: translateX(0);
+        }
+
+        .header {
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background-color: #0c8cee;
+            box-shadow: none;
+        }
+
+        .header.header-collapsed {
+            width: 100%;
+            padding-left: 10px;
+        }
+
+        .header .menu-toggle {
+            display: block;
+        }
+
+        .main-content {
+            margin-left: 0;
+            padding-top: 60px;
+        }
+    }
+
+    .header .user-info {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: flex-end;
+        color: rgb(6, 6, 8);
+    }
+
+    .header .user-info img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    .header .user-info span {
+        font-size: 18px;
+        color: rgb(6, 6, 8);
+    }
+
+    .sidebar img.logo {
+        display: block;
+        margin: 0 auto 20px;
+        width: 80%;
+        border-radius: 50%;
+        border: 3px solid #eafe36;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="header">
+            <h2>SERVICIOS INDUSTRIALES GONZÁLEZ</h2>
+            <div class="user-info">
+                <img src="" alt="User Avatar">
+                <span>BIENVENIDO:</span>
+            </div>
+        </div>
+    <div class="sidebar">
+        <img src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/40eaaf07809383661b86952525c5b78d" alt="Logo" class="logo">
+        <h1>SIG-INVENTARIO</h1>
+        <a href="../Remplazo/index.php"><i class="bi bi-house-door"></i> REEMPLAZO</a>
+        <a href="../Equipos/index.php"><i class="bi bi-laptop"></i> ENTREGA DE EQUIPOS</a>
+        <a href="#"><i class="bi bi-box"></i> STOCK DE EQUIPOS</a>
+        <a href="#"><i class="bi bi-file-earmark-text"></i> NOTAS DE REPARACION</a>
+        <a href="../Mantenimiento_Preventivo/index.php"><i class="bi bi-tools"></i> MANTENIMIENTO PREVENTIVO</a>
+        <a href="../licencias/formulario.php"><i class="bi bi-file-text"></i> CONTROL DE LICENCIAS</a>
+        <a onclick="cerrarSesion()" href="#"><i class="bi bi-box-arrow-right"></i> EXIT</a>
+    </div>
+    <div class="main-content">
+        <!-- Contenido principal aquí -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script>
+        function cerrarSesion() {
+          fetch('../Login/cierre.php', {
+            method: 'POST'
+          }).then(response => {
+            if (response.ok) {
+              window.location.href = '../Login/login.php';
+            } else {
+              alert('Error al cerrar sesión.');
+            }
+          }).catch(error => {
+            console.error('Error al cerrar sesión:', error);
+            alert('Ocurrió un error al cerrar sesión.');
+          });
+        }
+      </script>
+</body>
+</html>

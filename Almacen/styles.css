@@ -1,0 +1,77 @@
+/* Personalización adicional con Tailwind y Bootstrap */
+body {
+    background-color: #f8f9fa;
+}
+.form-control {
+display: flex;
+    width: 60%;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.search-container input {
+    border: 2px solid #6c757d;
+}
+
+.search-container button {
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#results-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+#results-container.visible {
+    opacity: 1;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #f4f4f4;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 4rem; /* Espaciado adicional si es necesario */
+    gap: 10rem; /* Espacio entre los botones */
+}
+
+.btn-primary-custom {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #0056b3;
+}

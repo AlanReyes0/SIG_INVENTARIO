@@ -1,0 +1,61 @@
+[09-Aug-2024 23:24:37 Europe/Berlin] PHP Warning:  require_once(C:\xampp\htdocs\Entrega De Equipos\acciones../vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 7
+[09-Aug-2024 23:24:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\Entrega De Equipos\acciones../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 7
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "modelo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "so" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "descripcion" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "nombre_equipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "ram" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "cpu" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Warning:  Undefined array key "hdd" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[09-Aug-2024 23:26:38 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "modelo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "so" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "descripcion" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "nombre_equipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "ram" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "cpu" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Warning:  Undefined array key "hdd" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[09-Aug-2024 23:26:54 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "modelo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 199
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "so" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 201
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "tipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 205
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "descripcion" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 209
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "nombre_equipo" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 213
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "ram" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 215
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "cpu" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 219
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Warning:  Undefined array key "hdd" in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[09-Aug-2024 23:27:45 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Entrega De Equipos\acciones\PDF.php on line 221
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 168
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 168
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 172
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 172
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 176
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 176
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 180
+[19-Aug-2024 16:50:15 Europe/Berlin] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\Inventario\Equipos\acciones\PDF.php on line 180
